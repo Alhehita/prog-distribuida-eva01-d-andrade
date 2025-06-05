@@ -10,7 +10,7 @@ import jakarta.ws.rs.Path;
 @Path("/books")
 @Produces(MediaType.APPLICATION_JSON)
 @Consumes(MediaType.APPLICATION_JSON)
-@RegisterRestClient(baseUri = "stor://books-api")
+@RegisterRestClient(baseUri = "stork://books-api")
 public interface BookRestClient {
 
     @GET
