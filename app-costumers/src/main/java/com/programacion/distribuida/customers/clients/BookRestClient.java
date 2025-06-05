@@ -15,5 +15,5 @@ public interface BookRestClient {
 
     @GET
     @Path("/{id}")
-    List<BookDto> findByIsbn(@PathParam("id") Integer isbn);
+    List<BookDto> findByIsbn(@PathParam("id") Integer id);
 }
